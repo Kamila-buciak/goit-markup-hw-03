@@ -5,6 +5,11 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: black;
+  max-width: 1600px;
+}
+* {
+  margin: 0;
+  padding: 0px;
 }
 .container {
   max-width: 1200px;
@@ -83,11 +88,10 @@ a:hover {
 .header {
   font-size: 44px;
   font-weight: 900;
-  line-height: 1, 36;
+  line-height: 1, 16;
   color: #ffffff;
-  margin-top: 280;
   text-align: center;
-  padding: 200px;
+  padding: 200px 452px 40px 452px;
 }
 .background-header {
   height: 600px;
@@ -112,18 +116,21 @@ a:hover {
 }
 .card-set {
   list-style: none;
+  display: flex;
 }
 .item {
   font-size: 14px;
   font-weight: 400;
   line-height: 1, 71;
   color: var(--secondary-color);
+  padding: 15px;
 }
 .item h4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   color: var(--main-color);
+  padding-bottom: 10px;
 }
 
 .work {
@@ -135,7 +142,6 @@ a:hover {
 .photo {
   margin-top: 50px;
   display: flex;
-  margin-left: 215px;
 }
 .photo-description {
   padding: 30px;
