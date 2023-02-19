@@ -20,6 +20,8 @@ button:hover {
   cursor: pointer;
   background-color: #2196f3;
   color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 a:hover {
   color: yellow;
@@ -34,6 +36,7 @@ a:hover {
   display: flex;
   align-items: center;
   margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 .navigation {
@@ -73,7 +76,7 @@ a:hover {
 
 .contact-list {
   list-style: none;
-  padding: 32px 50px 32px;
+  margin-right: 50px;
 }
 
 .contact-link {
@@ -240,6 +243,7 @@ a:hover {
   color: #212121;
   margin-right: 10px;
 }
+
 .button-two {
   background: #f5f4fa;
   border-radius: 4px;
